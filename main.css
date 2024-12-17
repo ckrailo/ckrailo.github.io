@@ -1,0 +1,107 @@
+:root {
+  --base03:    #002b36;
+  --base02:    #073642;
+  --base01:    #586e75;
+  --base00:    #657b83;
+  --base0:     #839496;
+  --base1:     #93a1a1;
+  --base2:     #eee8d5;
+  --base3:     #fdf6e3;
+  --yellow:    #b58900;
+  --orange:    #cb4b16;
+  --red:       #dc322f;
+  --magenta:   #d33682;
+  --violet:    #6c71c4;
+  --blue:      #268bd2;
+  --cyan:      #2aa198;
+  --green:     #859900;
+}
+
+@font-face {
+  font-family: "Berkeley Mono";
+  src:
+    url("/fonts/BerkeleyMonoVariable-Regular.woff2") format("woff2"),
+    url("/fonts/BerkeleyMonoVariable-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Berkeley Mono";
+  src:
+    url("/fonts/BerkeleyMonoVariable-Italic.woff2") format("woff2"),
+    url("/fonts/BerkeleyMonoVariable-Italic.woff") format("woff");
+  font-style: italic;
+}
+
+body {
+  background-image: url("/images/atanas-malamov-tpmAv6c33dE-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  color: rgba(131, 148, 150, .9);
+  font-family: "Berkeley Mono", monospace;
+  line-height: 1.5;
+  margin: 0;
+}
+
+main {
+  align-items: center;
+  background-color: rgba(0, 43, 54, .9);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+}
+
+p {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+h1 {
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 2.986rem;
+}
+h2 { font-size: 2.488rem; }
+h3 { font-size: 2.074rem; }
+h4 { font-size: 1.728rem; }
+h5 { font-size: 1.44rem; }
+h6 { font-size: 1.2rem; }
+small { font-size: 0.833rem; }
+micro { font-size: 0.694rem; }
+
+.icon-list {
+  gap: 2em;
+}
+
+.icon {
+  width: 2.5em;
+  height: 2.5em;
+  fill: rgba(131, 148, 150, .9);
+}
+
+a:link {
+  color: var(--blue);
+}
+
+a:visited {
+  color: var(--violet);
+}
+
+.row {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 1em;
+  width: 100%;
+}
+
+.row-left {
+  display: flex;
+  justify-content: flex-end;
+  width: 40%;
+}
+
+.row-right {
+  width: 40%;
+}
