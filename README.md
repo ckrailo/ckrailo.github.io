@@ -1,7 +1,5 @@
 # ckrailo.github.io
 
----
-
 ### Credits
 
 Background image [taken from Unsplash](https://unsplash.com/photos/tpmAv6c33dE) and credited to [Atanas Malamov](https://unsplash.com/@atanasmalamov).
@@ -10,8 +8,12 @@ Background image [taken from Unsplash](https://unsplash.com/photos/tpmAv6c33dE) 
 
 Typeface [used by license](https://ckrailo.com/misc/berkeley-mono-typeface-personal-license.pdf): [Berkeley Mono](https://berkeleygraphics.com/typefaces/berkeley-mono/) by Berkeley Graphics.
 
+![Berkeley Mono Typeface Marketing Animation](https://cdn.berkeleygraphics.com/static/images/marketing/animation%402x.gif)
+
 Icons pulled from [Font Awesome's free set](https://fontawesome.com/search?m=free&o=r).
 
 Colors based off of my favorite [Solarized Dark](https://github.com/altercation/solarized) theming.
 
-Hosted on [GitHub Pages](https://pages.github.com/).
+![Solarized Theme](https://raw.githubusercontent.com/altercation/solarized/master/img/solarized-yinyang.png)
+
+Hosted from [GitHub Pages](https://pages.github.com/).
