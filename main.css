@@ -105,3 +105,8 @@ a:visited {
 .row-right {
   width: 40%;
 }
+
+.mii {
+  border-radius: 50%;
+  width: 4.2em;
+}
